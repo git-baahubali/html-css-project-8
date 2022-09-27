@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blueviolet;
+}
+
+.main-div {
+  background-image: url('../images/backcover.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+}
+
+h5 {
+  padding: 10px;
+}
+.signin-btn {
+  padding: 1px 10px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+  background-image: linear-gradient(
+    45deg,
+    rgb(242, 99, 255),
+    rgb(255, 160, 160)
+  );
+  border: none;
+  border-radius: 10px;
+}
+/* ----------intro-section div starts here----- */
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* border------- */
+.intro-section > * {
+  /* border: 1px solid black;  */
+}
+/* left Section -------- */
+
+.left-section {
+  /* background-color: rgb(152, 254, 190); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20vh 0 10vh 10vw;
+  min-height: 300px;
+}
+h1 {
+  font-size: 60px;
+}
+h4 {
+  padding-right: 220px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.learn-more-btn {
+  padding: 5px 20px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(242, 99, 255) 40%,
+    rgb(255, 160, 160)
+  );
+  border: none;
+  border-radius: 40px;
+}
+/* right side */
+.imgs-div {
+}
+.vector-img {
+  position: absolute;
+  top: 500px;
+}
+.vector-dot {
+  position: absolute;
+  top: 500px;
+  left: 730px;
+}
